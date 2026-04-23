@@ -14,7 +14,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 import psutil
-from bt_api_py.monitoring.metrics import Counter, Gauge, Histogram, Metric, MetricRegistry
+from bt_api_monitoring.metrics import Counter, Gauge, Histogram, Metric, MetricRegistry
 
 
 @dataclass

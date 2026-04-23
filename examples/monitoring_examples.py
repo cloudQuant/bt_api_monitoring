@@ -7,8 +7,7 @@ Demonstrates how to use monitoring, logging, and observability features.
 import asyncio
 import time
 
-from bt_api_py.logging_system import get_logging_manager
-from bt_api_py.monitoring import (
+from bt_api_monitoring import (
     ExchangeHealthMonitor,
     HealthCheckFactory,
     counter,
@@ -20,7 +19,6 @@ from bt_api_py.monitoring import (
     monitor_calls,
     monitor_execution_time,
     monitor_performance,
-    setup_logging_for_production,
     timer,
 )
 
