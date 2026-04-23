@@ -89,7 +89,7 @@ jobs:
           pip install -e .
 
       - name: Install pytest
-        run: pip install pytest
+        run: pip install pytest pytest-asyncio
 
       - name: Run tests
         run: python -m pytest tests/ -v --tb=short -q
